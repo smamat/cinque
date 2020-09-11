@@ -6,21 +6,21 @@ The app consists of presentational and container components. The presentational 
 
 ## Presentational components
 
-  ┌---- CourseList --------┐ 
-  |                        | 
-  |  ┌--- DishList ----┐   | 
-  |  | -bruschetta     |   | 
-  |  | -insalata       |   | 
-  |  | -....           |   | 
-  |  └-----------------┘   | 
-  |                        | 
-  |  ┌--- DishList ----┐   |
-  |  | -spaghetti      |   |
-  |  | -penne          |   |
-  |  | -....           |   |
-  |  | -....           |   |
-  |  └-----------------┘   |
-  └------------------------┘
+  ┌---- CourseList --------┐                                                              
+  |                        |           
+  |  ┌--- DishList ----┐   |         
+  |  | -bruschetta     |   |              
+  |  | -insalata       |   |      
+  |  | -....           |   |    
+  |  └-----------------┘   |      
+  |                        |       
+  |  ┌--- DishList ----┐   |      
+  |  | -spaghetti      |   |      
+  |  | -penne          |   |      
+  |  | -....           |   |      
+  |  | -....           |   |      
+  |  └-----------------┘   |     
+  └------------------------┘    
 
 
 ### DishList
