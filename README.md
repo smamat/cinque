@@ -5,23 +5,28 @@ This project was created to demonstrate the use of Redux in React
 The app consists of presentational and container components. The presentational components concern with displaying the data on the page whereas the container components handles the data logic.
 
 ## Presentational components
-
-  `┌---- CourseList --------┐`                                                              
-  `|                        |`           
-  `|  ┌--- DishList ----┐   |`         
-  `|  | -bruschetta     |   |`              
-  `|  | -insalata       |   |`      
-  `|  | -....           |   |`    
-  `|  └-----------------┘   |`      
-  `|                        |`       
-  `|  ┌--- DishList ----┐   |`      
-  `|  | -spaghetti      |   |`      
-  `|  | -penne          |   |`      
-  `|  | -....           |   |`      
-  `|  | -....           |   |`      
-  `|  └-----------------┘   |`     
-  `└------------------------┘`    
-
+```c
+  ┌---- CourseList --------┐                                                              
+  |                        |           
+  |  ┌--- DishList ----┐   |         
+  |  | -bruschetta     |   |              
+  |  | -insalata       |   |      
+  |  | -....           |   |    
+  |  └-----------------┘   |      
+  |                        |       
+  |  ┌--- DishList ----┐   |      
+  |  | -spaghetti      |   |      
+  |  | -penne          |   |      
+  |  | -....           |   |      
+  |  | -....           |   |      
+  |  └-----------------┘   |
+  |                        |
+  |  ┌--- DishList ----┐   |      
+  |  | .....           |   |
+  |  └-----------------┘   |
+  |                        |
+  └------------------------┘    
+```
 
 ### DishList
 
